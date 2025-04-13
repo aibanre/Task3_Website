@@ -14,26 +14,26 @@
 }
 
 .headerNavButtons{
-    border: 1px solid black;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .headerNavButton{
-    font-size: 1.5rem;
+    font-size: 2vw;
     color: white;
     text-decoration: none;
 }
 
 .headerIcon{
     padding: 10px;
-    font-size: 2rem;
+    font-size: 2.5vw;
+
     color: white;
 }
 
 .theaderIcon{
-    margin: 1rem;
+    margin: 1vw;
     color: white;
 }
 
@@ -43,9 +43,9 @@
 }
 
 .tableContent{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
-    margin-top: 2rem;
+    margin-top: 2vw;
 }
 
 table{
@@ -57,12 +57,14 @@ th{
     background-color: rgb(32, 32, 32);
     color: white;
     font-weight: bold;
+    padding: 0 1rem;
 }
 
 th, td{
     border-bottom: 1px solid rgb(241, 239, 239);
     text-align: start;
-    padding: 1rem 0rem;
+    padding: 1vw 0rem;
+    font-size: 1.5vw;
 }
 
 input{
@@ -70,6 +72,7 @@ input{
     width: 1rem;
     margin: 1rem;
 }
+
 
 
 
